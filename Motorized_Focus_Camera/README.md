@@ -42,12 +42,17 @@ cd RaspberryPi/Motorized_Focus_Camera/python/
 
 ## Install libcamera
 
+**For driver installation, please refer to the documentation of the corresponding camera**
+
 ```bash
 wget -O install_pivariety_pkgs.sh https://github.com/ArduCAM/Arducam-Pivariety-V4L2-Driver/releases/download/install_script/install_pivariety_pkgs.sh
 chmod +x install_pivariety_pkgs.sh
 ./install_pivariety_pkgs.sh -p libcamera_dev
 ./install_pivariety_pkgs.sh -p libcamera_apps
 ```
+
+
+**The following installation package is only applicable to python3.9 version**
 
 ### Kernel version 5.10.63
 
